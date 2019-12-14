@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+	"name": "Hard Block",
+	"description": "A hard but easily breakable block.",
+	"health": 120,
+	"size": 1,
+	"breakable": true,
+	"category": "defense",
+	"requirements": [
+		{ "item": "pixellium-type-m", "amount": 6 }
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+	"name": "Ground Block",
+	"description": "A supposedly indestructible block that serves as the building ground.",
+	"health": 1200,
+	"size": 1,
+	"breakable": true,
+	"category": "defense",
+	"requirements": [
+		{ "item": "pixellium-type-m", "amount": 60 }
+	]
+}
