@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Pixellium Modder Type M",
+	"description": "This uses spores to collapse the pixellium into type M.",
+	"itemCapacity": 10,
+	"outputItem": {"item": "pixellium-type-m", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 6,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 64,
+		"items": {
+			"items": [
+				{ "item": "pixellium", "amount": 1 },
+				{ "item": "spore-pod", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 256 },
+		{ "item": "thorium", "amount": 128 },
+		{ "item": "silicon", "amount": 256 }
+	],
+	"category": "crafting",
+	"research": "pixellium-crystallizer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
