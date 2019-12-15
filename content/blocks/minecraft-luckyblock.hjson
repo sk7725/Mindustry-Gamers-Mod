@@ -7,10 +7,10 @@ type: Separator
 craftTime: 120
 color: FFFF00
 
-spinnerRadius: 16
-spinnerLength: 1
-spinnerThickness: 1
-spinnerSpeed: 30
+spinnerRadius: 10
+spinnerLength: 0
+spinnerThickness: 0
+spinnerSpeed: 10
 
 results: [
 	pixellium/1
