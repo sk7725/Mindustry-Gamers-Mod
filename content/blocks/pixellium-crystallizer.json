@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
 	"name": "Pixellium Crystallizer",
-	"description": "This uses quantum sparks from surge discharge to entangle pixellium",
+	"description": "This uses quantum sparks from surge discharge to entangle pixellium.",
 	"itemCapacity": 50,
 	"outputItem": {"item": "pixellium", "amount": 1},
 	"size": 2,

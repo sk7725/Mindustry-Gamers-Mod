@@ -17,12 +17,12 @@
     "type": "BasicBulletType",
     "lifetime": 1000,
     "speed": 2,
-    "splashDamageRadius": 2,
-    "splashDamage": 400,
-    "bulletSprite": "mindustry-gamers-mod-bulletbill-bill"
+    "splashDamageRadius": 60,
+    "splashDamage": 600,
+    "bulletSprite": "gamersmod-bulletbill-bill"
     "speed": 1.0,
 			
-    "damage": 900.0,
+    "damage": 1200.0,
 	
     "bulletWidth": 8,
 

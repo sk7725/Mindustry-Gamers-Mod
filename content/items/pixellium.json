@@ -1,9 +1,9 @@
 {
 	"type": "resource",
 	"name": "Pixellium",
-	"description": "Used for summoning entites of long lost games.",
+	"description": "Used for summoning entites of long lost games. Unstable.",
 	"explosiveness": 0,
 	"flammability": 0,
-	"radioactivity": 64,
+	"radioactivity": 10.24,
 	"hardness": 64,
 	"cost": 1}
