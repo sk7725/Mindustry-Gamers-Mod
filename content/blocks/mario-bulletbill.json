@@ -19,7 +19,7 @@
     "speed": 2,
     "splashDamageRadius": 2,
     "splashDamage": 400,
-    "bulletSprite": "GamersMod-bulletbill-bill"
+    "bulletSprite": "mindustry-gamers-mod-bulletbill-bill"
     "speed": 1.0,
 			
     "damage": 900.0,
