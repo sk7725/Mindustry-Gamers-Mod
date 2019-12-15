@@ -14,7 +14,7 @@
 		
 "thorium": {
 
-    "type": "MissleBulletType",
+    "type": "MissileBulletType",
     "homingPower": 2,
     "homingRange": 20,
     "lifetime": 1000,
