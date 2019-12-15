@@ -10,7 +10,7 @@
 	"solid": false,
 	"alwaysReplace": true,
 	"category": "effect",
-"research": "pixellium-type-m",	"requirements": [
+"research": "pixellium-modder-m",	"requirements": [
 		{ "item": "pixellium-type-m", "amount": 1 }
 	]
 }
