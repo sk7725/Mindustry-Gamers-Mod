@@ -16,9 +16,9 @@
 
     "type": "MissileBulletType",
     "homingPower": 2,
-    "homingRange": 20,
+    "homingRange": 100,
     "lifetime": 1000,
-    "speed": 2,
+    "speed": 2.5,
     "splashDamageRadius": 10,
     "splashDamage": 500,
     "bulletSprite": "gamersmod-bulletbill-billred"

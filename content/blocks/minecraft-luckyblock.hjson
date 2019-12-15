@@ -1,0 +1,55 @@
+name: Lucky Block
+description: Turns experience into random items.
+
+type: Separator
+
+// Separator properties
+craftTime: 120
+color: FFFF00
+
+results: [
+	pixellium/1
+	blast-compound/2
+	coal/2
+	copper/2
+	graphite/2
+	surge-alloy/2
+	phase-fabric/2
+	metaglass/2
+	spore-pod/2
+	silicon/2
+	sand/2
+	thorium/2
+	titanium/2
+	plastanium/2
+	scrap/4
+	lead/2
+	pyratite/2
+	pixellium-type-m/1
+	pixellium-type-c/1
+]
+
+consumes: {
+	items: {
+		items: [
+			
+		]
+	}
+	liquid: {
+		liquid: exp
+		amount: 0.5
+	}
+}
+
+hasPower: false
+
+size: 1
+requirements: [
+	pixellium-type-m/30
+	pixellium-type-c/30
+]
+category: crafting
+
+liquidCapacity: 60
+
+research: pixellium-modder-c
