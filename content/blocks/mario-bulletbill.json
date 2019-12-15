@@ -5,7 +5,7 @@
 	"health": 1000,
 	"size": 1,
 	"reload": 90,
-	"range": 20,	"knockback": 2,
+	"range": 200,	"knockback": 2,
 	"ammoUseEffect": "shellEjectSmall",
 	"inaccuracy": 0,
 	"rotatespeed": 12,
@@ -14,21 +14,19 @@
 		
 "thorium": {
 
-    "type": "MissileBulletType",
+    "type": "BasicBulletType",
     "lifetime": 1000,
     "speed": 2,
     "splashDamageRadius": 2,
     "splashDamage": 400,
-    "frontColor": "ff9911",
-    "backColor": "ffaa11",
-    "bulletSprite": "bulletbill-bill"
+    "bulletSprite": "GamersMod-bulletbill-bill"
     "speed": 1.0,
 			
     "damage": 900.0,
 	
-    "bulletWidth": 16,
+    "bulletWidth": 8,
 
-    "bulletHeight": 16,
+    "bulletHeight": 8,
 
     "shootEffect": "shootSmall",
 
