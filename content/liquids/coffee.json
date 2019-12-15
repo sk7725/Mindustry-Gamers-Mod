@@ -1,0 +1,9 @@
+{
+	"name": "Coffee",
+	"description": "Hot coffee, perfect for programmers.",
+	"temperature": 0.6,
+	"amount": 0.5,
+    "viscosity": 0.3,
+    "effect": "melting",
+    "color": "261500"
+}

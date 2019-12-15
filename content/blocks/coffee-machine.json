@@ -1,0 +1,37 @@
+{
+	"type": "Fracker",
+	"name": "Coffee Machine",
+	"description": "Anuke's Coffee Machine. Uses water and grinds scrap to make coffee. Coffee is a must for programmers.",
+	"liquidCapacity": 50,
+	"itemCapacity": 50,
+	"result": "coffee",
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"pumpAmount": 0.2,
+	"updateEffect": "pulverize",
+    "updateEffectChance": 0.08,
+	"consumes": {
+		"power": 3.0,
+		"items": {
+			"items": [
+                { "item": "scrap", "amount": 1 }
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.2
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 20 },
+		{ "item": "titanium", "amount": 10 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "metaglass", "amount": 30 }
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

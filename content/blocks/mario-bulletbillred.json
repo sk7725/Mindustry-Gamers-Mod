@@ -1,10 +1,10 @@
 {
 	"type": "ItemTurret",
-	"name": "Bullet Bill Blaster",
-	"description": "A Bullet Bill Blaster that shoots out strong Killer Bills. Slightly less DPS than the Spectre.",
+	"name": "Red Bullet Bill Blaster",
+	"description": "A Bullet Bill Blaster that shoots out homing Killer Bills.",
 	"health": 1000,
 	"size": 1,
-	"reload": 90,
+	"reload": 110,
 	"range": 200,	"knockback": 2,
 	"ammoUseEffect": "shellEjectSmall",
 	"inaccuracy": 0,
@@ -14,15 +14,17 @@
 		
 "thorium": {
 
-    "type": "BasicBulletType",
+    "type": "MissleBulletType",
+    "homingPower": 2,
+    "homingRange": 20,
     "lifetime": 1000,
     "speed": 2,
     "splashDamageRadius": 10,
-    "splashDamage": 600,
-    "bulletSprite": "gamersmod-bulletbill-bill"
+    "splashDamage": 500,
+    "bulletSprite": "gamersmod-bulletbill-billred"
     "speed": 1.0,
 			
-    "damage": 1200.0,
+    "damage": 1000.0,
 	
     "bulletWidth": 8,
 
@@ -38,7 +40,7 @@
 },
 
 	"requirements": [
-		{ "item": "pixellium-type-m", "amount": 150 },
+		{ "item": "pixellium-type-m", "amount": 200 },
 	],
 	"category": "turret",
 	"research": "pixellium-modder-m"}
