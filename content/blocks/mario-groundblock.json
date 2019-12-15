@@ -6,7 +6,7 @@
 	"size": 1,
 	"breakable": true,
 	"category": "defense",
-	"requirements": [
+"research": "pixellium-type-m",	"requirements": [
 		{ "item": "pixellium-type-m", "amount": 60 }
 	]
 }

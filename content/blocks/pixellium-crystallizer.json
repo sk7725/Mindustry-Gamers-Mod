@@ -23,7 +23,7 @@
 		{ "item": "silicon", "amount": 256 }
 	],
 	"category": "crafting",
-	"research": "blast-mixer",
+	"research": "alloy-smelter",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5,
 	"flameColor": "03F0FC"

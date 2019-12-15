@@ -1,1 +1,1 @@
-A mod that includes components from famous games. Fixed teny bugs. (WIP)
+A mod that includes components from famous games. Fixed tiny bugs Added bills. (WIP)
