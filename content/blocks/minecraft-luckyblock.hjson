@@ -7,6 +7,11 @@ type: Separator
 craftTime: 120
 color: FFFF00
 
+spinnerRadius: 16
+spinnerLength: 1
+spinnerThickness: 1
+spinnerSpeed: 30
+
 results: [
 	pixellium/1
 	blast-compound/2
