@@ -3,7 +3,7 @@
 	"name": "Pixellium Modder Type M",
 	"description": "This uses spores to collapse the pixellium into type M.",
 	"itemCapacity": 10,
-	"outputItem": {"item": "pixellium-type-m", "amount": 1},
+	"outputItem": {"item": "pixellium-type-m", "amount": 5},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
@@ -14,7 +14,7 @@
 		"items": {
 			"items": [
 				{ "item": "pixellium", "amount": 1 },
-				{ "item": "spore-pod", "amount": 1 }
+				{ "item": "spore-pod", "amount": 5 }
 			]
 		}
 	},

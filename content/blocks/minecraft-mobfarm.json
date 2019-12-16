@@ -1,0 +1,31 @@
+{
+	"type": "Fracker",
+	"name": "Mob Farm",
+	"description": "Produces experience by killing mobs with water and blast compound.",
+	"liquidCapacity": 18,
+	"result": "exp",
+	"size": 2,
+	"hasPower": false,
+	"hasLiquids": true,
+	"pumpAmount": 0.15,
+	"updateEffect": "explosion",
+    "updateEffectChance": 0.08,
+	"consumes": {
+		"items": {
+			"items": [
+                { "item": "blast-compound", "amount": 1 }
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.1
+		}
+	},
+	"requirements": [
+		{ "item": "pixellium-type-c", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "pixellium-modder-c",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

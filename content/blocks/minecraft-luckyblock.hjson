@@ -50,8 +50,8 @@ hasPower: false
 
 size: 1
 requirements: [
-	pixellium-type-m/30
-	pixellium-type-c/30
+	pixellium-type-m/10
+	pixellium-type-c/15
 ]
 category: crafting
 

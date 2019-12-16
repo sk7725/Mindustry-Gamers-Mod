@@ -7,6 +7,6 @@
 	"breakable": true,
 	"category": "defense",
 "research": "pixellium-modder-m",	"requirements": [
-		{ "item": "pixellium-type-m", "amount": 60 }
+		{ "item": "pixellium-type-m", "amount": 6 }
 	]
 }

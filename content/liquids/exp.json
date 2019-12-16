@@ -1,6 +1,6 @@
 {
 	"name": "Experience",
-	"description": Raw Experience from EXP farms.",
+	"description": "Raw Experience from EXP farms.",
 	"temperature": 0.95,
 	"amount": 0.5,
     "viscosity": 0.7,

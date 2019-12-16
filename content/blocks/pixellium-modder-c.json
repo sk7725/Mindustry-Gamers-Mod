@@ -3,7 +3,7 @@
 	"name": "Pixellium Modder Type C",
 	"description": "This uses blast compound to collapse the pixellium into type C.",
 	"itemCapacity": 10,
-	"outputItem": {"item": "pixellium-type-c", "amount": 1},
+	"outputItem": {"item": "pixellium-type-c", "amount": 5},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
@@ -14,7 +14,7 @@
 		"items": {
 			"items": [
 				{ "item": "pixellium", "amount": 1 },
-				{ "item": "blast-compound", "amount": 1 }
+				{ "item": "blast-compound", "amount": 5 }
 			]
 		}
 	},
