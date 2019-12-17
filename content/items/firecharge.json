@@ -1,0 +1,9 @@
+{
+	"type": "resource",
+	"name": "Fire Charge",
+	"description": "Can be used to light a fire. Explodes in a high velocity collision.",
+	"explosiveness": 0.6,
+	"flammability": 1,
+	"radioactivity": 0,
+	"hardness": 3,
+	"cost": 1}

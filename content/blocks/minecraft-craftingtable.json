@@ -1,0 +1,27 @@
+{
+	"type": "GenericCrafter",
+	"name": "Crafting Table",
+	"description": "Omong other things, this crafting table crafts pyratite and coal into fire charges.",
+	"itemCapacity": 64,
+	"outputItem": {"item": "firecharge", "amount": 1},
+	"size": 1,
+	"hasPower": false,
+	"hasItems": true,
+	"craftTime": 6,
+	"updateEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "pyratite", "amount": 1 },
+				{ "item": "coal", "amount": 2 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "pixellium-type-c", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "pixellium-modder-c",
+	"idleSound": "none",
+	"idleSoundVolume": 0.5
+}

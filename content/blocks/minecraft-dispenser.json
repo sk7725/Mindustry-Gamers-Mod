@@ -1,0 +1,43 @@
+{
+	"type": "ItemTurret",
+	"name": "Dispenser",
+	"description": "A dispenser that shoots items in high velocity. Redstone clock included.",
+	"health": 8000,
+	"size": 1,
+	"reload": 9,
+	"range": 160,	"knockback": 1,
+	"ammoUseEffect": "smeltsmoke",
+	"inaccuracy": 2,
+	"rotatespeed": 15,
+	
+"ammo": {
+		
+"firecharge": {
+
+    "type": "BasicBulletType",
+    "lifetime": 700,
+    "speed": 10,
+    "splashDamageRadius": 40,
+    "splashDamage": 50,
+    "bulletSprite": "gamersmod-dispenser-firecharge"
+			
+    "damage": 50.0,
+	
+    "bulletWidth": 8,
+
+    "bulletHeight": 8,
+
+    "shootEffect": "shootSmall",
+
+    "smokeEffect": "shootSmallSmoke",
+
+    "ammoMultiplier": 1
+}
+	
+},
+
+	"requirements": [
+		{ "item": "pixellium-type-c", "amount": 130 },
+	],
+	"category": "turret",
+	"research": "pixellium-modder-c"}

@@ -1,1 +1,1 @@
-A mod that includes components from famous games. Fixed tiny bugs Added bills. (WIP)
+A mod that includes components from famous games. Minecraft now ready! (WIP)
