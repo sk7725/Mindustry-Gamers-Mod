@@ -1,0 +1,31 @@
+{
+	"type": "LaserTurret",
+	"name": "Gaster Blaster",
+	"description": "A skeletal head that shoots out powerful beams of determination.",
+	"targetAir": true,
+	"targetGround": true,
+	"hasPower": true,
+	"shootType": "lancerLaser",
+	"powerUse": 21,
+	"health": 2000,
+	"size": 1,
+	"damage": 1111,
+	"inaccuracy": 0,
+	"reload": 1.5,
+	"shots": 1,
+	"recoil": 3,
+	"ammoUseEffect": "none",
+	"shootCone": 8,
+	"rotateSpeed": 50,
+	"chargeTime": 30,
+	"chargeEffects": 5,
+	"chargeMaxDelay": 10,
+	"shootDuration": 60,
+	"range": 210,
+	"requirements": [
+		{ "item": "pixellium-type-u", "amount": 190 }
+	],
+	"category": "turret",
+	"research": "pixellium-modder-u",
+	"shootSound": "laserbig"
+}

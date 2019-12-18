@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Pixellium Type U",
+	"description": "Used for summoning entites of long lost games, has a tendency to replenish determination.",
+	"explosiveness": 0,
+	"flammability": 0,
+	"radioactivity": 0,
+	"hardness": 64,
+	"cost": 1}

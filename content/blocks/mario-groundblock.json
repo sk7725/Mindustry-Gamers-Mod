@@ -2,7 +2,7 @@
 	"type": "Wall",
 	"name": "Ground Block",
 	"description": "A supposedly indestructible block that serves as the building ground.",
-	"health": 1200,
+	"health": 1400,
 	"size": 1,
 	"breakable": true,
 	"category": "defense",
