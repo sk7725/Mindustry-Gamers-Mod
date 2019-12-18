@@ -18,10 +18,10 @@
     "lifetime": 700,
     "speed": 10,
     "splashDamageRadius": 40,
-    "splashDamage": 8	0,
+    "splashDamage": 95,
     "bulletSprite": "gamersmod-dispenser-firecharge"
 			
-    "damage": 80.0,
+    "damage": 95.0,
 	
     "bulletWidth": 8,
 
