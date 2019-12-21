@@ -4,7 +4,7 @@
 	"description": "A dispenser that shoots items in high velocity. Redstone clock included.",
 	"health": 8000,
 	"size": 1,
-	"reload": 9,
+	"reload": 11,
 	"range": 160,	"knockback": 1,
 	"ammoUseEffect": "smeltsmoke",
 	"inaccuracy": 2,
@@ -28,6 +28,7 @@
     "bulletHeight": 8,
 
     "shootEffect": "shootSmall",
+    "shootSound": "turret-dispenser",
 
     "smokeEffect": "shootSmallSmoke",
 

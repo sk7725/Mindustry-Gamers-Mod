@@ -32,6 +32,8 @@ results: [
 	pyratite/2
 	pixellium-type-m/1
 	pixellium-type-c/1
+	pixellium-type-u/1
+	firecharge/2
 ]
 
 consumes: {

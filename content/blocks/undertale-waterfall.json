@@ -1,0 +1,16 @@
+{
+	"type": "Block",
+	"name": "8 Bit Waterfall",
+	"description": "A silver of a chipped waterfall.",
+	"health": 100,
+	"size": 1,
+	"breakable": true,
+	"targetable": false,
+	"hasShadow": false,
+	"solid": false,
+	"alwaysReplace": true,
+	"category": "effect",
+"research": "pixellium-modder-u",	"requirements": [
+		{ "item": "pixellium-type-u", "amount": 1 }
+	]
+}
