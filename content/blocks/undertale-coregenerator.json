@@ -1,0 +1,27 @@
+{
+	"type": "ImpactReactor",
+	"name": "Core Generator",
+	"description": "The creation that powers mountains, invented by... wait, who was it again?\nRequires power input as well as some experience. It may take some time to kickstart, so please be patient.",
+	"size": 4,
+	"hasPower": true,
+	"hasItems": false,
+	"hasLiquids": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"plasmas": 2,
+	"warmupSpeed": 0.002,
+	"powerProduction": 210.0,
+	"consumes": {
+	    "power": 20.0,
+		"liquid": {
+			"liquid": "exp",
+			"amount": 0.45,
+			"optional": false
+		},
+	},
+	"requirements": [
+		{ "item": "pixellium-type-u", "amount": 180 }
+	],
+	"category": "power",
+	"research": "pixellium-modder-u"
+}

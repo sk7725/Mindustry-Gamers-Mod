@@ -2,6 +2,7 @@
 	"type": "resource",
 	"name": "Fire Charge",
 	"description": "Can be used to light a fire. Explodes in a high velocity collision.",
+	"color": "db6b1a",
 	"explosiveness": 0.6,
 	"flammability": 1,
 	"radioactivity": 0,

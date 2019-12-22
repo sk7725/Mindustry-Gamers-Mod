@@ -2,6 +2,7 @@
 	"type": "material",
 	"name": "Pixellium Type C",
 	"description": "Used for summoning entites of long lost games, has a tendency to hiss and explode. Aww man.",
+	"color": "00cf60",
 	"explosiveness": 2.56,
 	"flammability": 0.08,
 	"radioactivity": 0,
