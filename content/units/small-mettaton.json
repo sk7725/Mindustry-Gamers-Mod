@@ -1,0 +1,38 @@
+{
+	"type": "flyingUnit",
+	"name": "Small Mettaton",
+	"description": "A mini Mettaton with an umbrella that throws M hearts.",
+	"speed": 0.45,
+	"flying": true,
+	"health": 1000,
+	"engineOffset": 5.5,
+	"range": 160,
+	"weapon": {
+		"name": "mheart-arm",
+		"length": 4,
+		"width": 4,
+		"reload": 40,
+		"shots": 5,
+		"spacing": 8,
+		"inaccuracy": 3,
+		"recoil": 0,
+		"alternate": true,
+		"bullet": {
+    			"type": "BasicBulletType",
+    			"lifetime": 300,
+    			"speed": 1,
+    			"bulletSprite": "gamersmod-mettatron-mheart"
+			
+    			"damage": 420.0,
+			"pierce": true,
+    			"bulletWidth": 24,
+
+    			"bulletHeight": 24,
+
+   			"shootEffect": "shootSmall",
+
+    			"smokeEffect": "shootSmallSmoke",
+    			"shootSound": "turret-bulletbill",
+		}
+	}
+}

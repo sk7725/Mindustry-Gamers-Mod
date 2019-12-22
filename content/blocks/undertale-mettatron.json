@@ -1,0 +1,22 @@
+{
+	"name": "Mettatron",
+	"description": "A surprisingly stylish vending machine that makes small mettaton units. It has a switch on its back.",
+	"type": "UnitFactory",
+	"unitType": "small-mettaton",
+	"size": 2,
+	"produceTime": 300,
+	"consumes": {
+		"power": 0.6,
+		"items": {
+			"items": [
+				{"item": "metaglass", "amount": 20},
+				{"item": "lead", "amount": 5}
+			]
+		}
+	},
+	"category": "units",
+	"research": "pixellium-modder-u",
+	"requirements": [
+		{ "item": "pixellium-type-u", "amount": 145 }
+	]
+}

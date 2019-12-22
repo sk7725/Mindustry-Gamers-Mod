@@ -8,11 +8,11 @@
 	"hasLiquids": true,
 	"outputsPower": true,
 	"consumesPower": true,
-	"plasmas": 2,
-	"warmupSpeed": 0.002,
-	"powerProduction": 210.0,
+	"plasmas": 0,
+	"warmupSpeed": 0.003,
+	"powerProduction": 230.0,
 	"consumes": {
-	    "power": 20.0,
+	    "power": 40.0,
 		"liquid": {
 			"liquid": "exp",
 			"amount": 0.45,
