@@ -1,0 +1,25 @@
+{
+	"name": "Diamond Pickaxe Drill",
+	"description": "A drill that uses a diamond pickaxe to mine fast. Despite the technology that made this possible, it still digs straight down.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 9,
+	"drillTime": 60.0,
+	"drawMineItem": true,
+	"rotateSpeed": 3.5,
+	"itemCapacity": 64,
+	"consumes": {
+		"power": 3.5,
+		"liquid": {
+			"liquid": "exp", 
+			"amount": 0.15,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "pixellium-type-c", "amount": 60 }
+	],
+	"category": "production",
+	"research": "pixellium-modder-c"
+}

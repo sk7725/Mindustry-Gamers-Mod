@@ -16,7 +16,7 @@
 	"shots": 8,
 	"recoil": 3,
 	"shootEffect": "lightningShoot",
-	"shootCone": 0,
+	"shootCone": 0.001,
 	"rotateSpeed": 50,
 	"range": 210,
 	"requirements": [
