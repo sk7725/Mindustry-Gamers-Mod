@@ -1,9 +1,9 @@
 {
 	"type": "GenericCrafter",
-	"name": "Pixellium Modder Type U",
-	"description": "This uses phase fabric to collapse the pixellium into type U.",
+	"name": "Pixellium Modder Type T",
+	"description": "This uses plastanium to collapse the pixellium into type T.",
 	"itemCapacity": 10,
-	"outputItem": {"item": "pixellium-type-u", "amount": 5},
+	"outputItem": {"item": "pixellium-type-t", "amount": 5},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
@@ -14,7 +14,7 @@
 		"items": {
 			"items": [
 				{ "item": "pixellium", "amount": 1 },
-				{ "item": "phase-fabric", "amount": 5 }
+				{ "item": "plastanium", "amount": 5 }
 			]
 		}
 	},

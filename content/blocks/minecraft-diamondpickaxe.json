@@ -5,9 +5,10 @@
 	"size": 3,
 	"tier": 9,
 	"drillTime": 60.0,
-	"drawMineItem": true,
-	"rotateSpeed": 3.5,
+	"drawMineItem": false,
+	"rotateSpeed": 5.5,
 	"itemCapacity": 64,
+	"liquidCapacity": 27,
 	"consumes": {
 		"power": 3.5,
 		"liquid": {

@@ -1,0 +1,10 @@
+{
+	"type": "material",
+	"name": "Pixellium Type T",
+	"description": "Used for summoning entites of long lost games, has a tendency to give feelings of evil presences.",
+	"color": "93db16",
+	"explosiveness": 0.04,
+	"flammability": 0.04,
+	"radioactivity": 0.04,
+	"hardness": 64,
+	"cost": 1}
