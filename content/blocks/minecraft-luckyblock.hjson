@@ -44,7 +44,7 @@ consumes: {
 	}
 	liquid: {
 		liquid: exp
-		amount: 0.3
+		amount: 0.1
 	}
 }
 

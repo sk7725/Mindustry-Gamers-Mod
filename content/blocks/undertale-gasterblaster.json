@@ -13,14 +13,14 @@
 	"damage": 1111,
 	"inaccuracy": 0,
 	"reload": 60,
-	"shots": 8,
+	"shots": 6,
 	"recoil": 3,
 	"shootEffect": "lightningShoot",
-	"shootCone": 0.001,
+	"shootCone": 0.0001,
 	"rotateSpeed": 50,
 	"range": 210,
 	"requirements": [
-		{ "item": "pixellium-type-u", "amount": 190 }
+		{ "item": "pixellium-type-u", "amount": 200 }
 	],
 	"category": "turret",
 	"research": "pixellium-modder-u",

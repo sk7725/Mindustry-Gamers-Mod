@@ -41,7 +41,7 @@
 },
 
 	"requirements": [
-		{ "item": "pixellium-type-m", "amount": 180 },
+		{ "item": "pixellium-type-m", "amount": 150 },
 	],
 	"category": "turret",
 	"research": "pixellium-modder-m"}

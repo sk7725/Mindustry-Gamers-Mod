@@ -4,7 +4,7 @@
 	"description": "A mini Mettaton with an umbrella that throws M hearts.",
 	"speed": 0.32,
 	"flying": true,
-	"health": 1000,
+	"health": 250,
 	"engineOffset": 5.5,
 	"range": 160,
 	"weapon": {

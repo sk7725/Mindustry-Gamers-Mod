@@ -1,0 +1,13 @@
+{
+	"name": "Justice Filler",
+	"description": "You are filled with Justice.",
+	"type": "MechPad",
+	"mech": "yellow-soul",
+	"size": 2,
+	"hasPower": false,
+	"category": "upgrade",
+	"requirements": [
+		{ "item": "pixellium-type-u", "amount": 250 }
+	]
+	"research": "pixellium-modder-u"
+}

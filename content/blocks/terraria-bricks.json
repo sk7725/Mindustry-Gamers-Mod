@@ -1,0 +1,16 @@
+{
+	"type": "Block",
+	"name": "16 Bit Bricks",
+	"description": "A bunch of retro bricks.",
+	"health": 100,
+	"size": 1,
+	"breakable": true,
+	"targetable": false,
+	"hasShadow": false,
+	"solid": false,
+	"alwaysReplace": true,
+	"category": "effect",
+"research": "pixellium-modder-t",	"requirements": [
+		{ "item": "pixellium-type-t", "amount": 1 }
+	]
+}
