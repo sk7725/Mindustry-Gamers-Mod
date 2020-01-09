@@ -5,10 +5,11 @@
 	"buildPower": 210.0,
 	"engineColor": "000000",
 	"cellTrnsY": 4,
-	"engineOffset": 9,
+	"engineOffset": 0,
+	"engineSize":0,
 	"flying": true,
 	"health": 290,
-	"weaponOffsetX": 0,
+	"weaponOffsetX": -2,
 	"weaponOffsetY": 0,
 	"weapon": {
 		"name": "yellow-soul-arm",
