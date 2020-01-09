@@ -23,7 +23,7 @@
     			"speed": 0.7,
     			"bulletSprite": "gamersmod-mettatron-mheart"
 			
-    			"damage": 90.0,
+    			"damage": 60.0,
 			"pierce": true,
     			"bulletWidth": 9,
 
