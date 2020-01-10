@@ -1,0 +1,13 @@
+{
+	"name": "Kindness Filler",
+	"description": "Provides transformation into a healer Soul. You are filled with Kindness.",
+	"type": "MechPad",
+	"mech": "green-soul",
+	"size": 2,
+	"hasPower": false,
+	"category": "upgrade",
+	"requirements": [
+		{ "item": "pixellium-type-u", "amount": 230 }
+	]
+	"research": "pixellium-modder-u"
+}

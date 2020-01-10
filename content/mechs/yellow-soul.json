@@ -1,15 +1,16 @@
 {
 	"name": "Yellow Soul",
-	"description": "The soul that shoots out beams of Justice.",
+	"description": "The soul that shoots out beams of Justice. The bullets penetrate rows of foes.",
 	"speed": 2.0,
-	"buildPower": 210.0,
+	"buildPower": 2.10,
 	"engineColor": "000000",
 	"cellTrnsY": 4,
 	"engineOffset": 0,
 	"engineSize":0,
 	"flying": true,
 	"health": 290,
-	"weaponOffsetX": -2,
+	"itemCapacity": 50,
+	"weaponOffsetX": -1,
 	"weaponOffsetY": 0,
 	"weapon": {
 		"name": "yellow-soul-arm",
@@ -19,17 +20,17 @@
 		"bullet": {
     			"type": "BasicBulletType",
     			"lifetime": 150,
-    			"speed": 3.3,
+    			"speed": 3.4,
     			"bulletSprite": "gamersmod-yellow-soul-yellowshot"
 			
-    			"damage": 45.0,
+    			"damage": 50.0,
 			"pierce": true,
     			"bulletWidth": 3,
 
     			"bulletHeight": 16,
 
-   			"shootEffect": "shootSmall",
-
+   			"shootEffect": "none",
+			"keepVelocity": false,
     			"smokeEffect": "none",
     			"shootSound": "mech-yellowsoul",
 		}

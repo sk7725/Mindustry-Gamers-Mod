@@ -1,6 +1,6 @@
 {
 	"name": "Justice Filler",
-	"description": "You are filled with Justice.",
+	"description": "Provides transformation into a Soul with penetrating shots. You are filled with Justice.",
 	"type": "MechPad",
 	"mech": "yellow-soul",
 	"size": 2,

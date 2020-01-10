@@ -1,0 +1,40 @@
+{
+	"name": "Green Soul",
+	"description": "The soul that gives out modified friendliness pellets.",
+	"speed": 2.0,
+	"buildPower": 2.40,
+	"engineColor": "000000",
+	"cellTrnsY": 4,
+	"engineOffset": 0,
+	"engineSize":0,
+	"flying": true,
+	"itemCapacity": 50,
+	"canHeal": true,
+	"health": 370,
+	"weaponOffsetX": -1,
+	"weaponOffsetY": 0,
+	"weapon": {
+		"name": "green-soul-arm",
+		"length": 0,
+		"reload": 35,
+		"alternate": true,
+		"bullet": {
+    			"type": "BasicBulletType",
+    			"lifetime": 150,
+    			"speed": 1.4,
+    			"bulletSprite": "gamersmod-green-soul-pellet"
+			
+    			"damage": 20.0,
+			"pierce": false,
+			"inaccuracy": 2.5,
+    			"bulletWidth": 4,
+
+    			"bulletHeight": 8,
+
+   			"shootEffect": "healWaveMend",
+			"keepVelocity": true,
+    			"smokeEffect": "none",
+    			"shootSound": "mech-greensoul",
+		}
+	}
+}

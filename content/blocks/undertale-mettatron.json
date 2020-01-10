@@ -5,6 +5,7 @@
 	"unitType": "small-mettaton",
 	"size": 2,
 	"produceTime": 300,
+	"maxSpawn": 3,
 	"consumes": {
 		"power": 0.6,
 		"items": {
