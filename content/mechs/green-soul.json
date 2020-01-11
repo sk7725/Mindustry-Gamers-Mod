@@ -25,7 +25,7 @@
     			"speed": 6,
     			"bulletSprite": "gamersmod-green-soul-pellet"
 			
-    			"damage": 250.0,
+    			"damage": -250.0,
 			"pierce": false,
 			"inaccuracy": 0,
     			"bulletWidth": 1,
