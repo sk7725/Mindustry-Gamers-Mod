@@ -21,7 +21,8 @@
     "speed": 2.5,
     "splashDamageRadius": 10,
     "splashDamage": 500,
-    "bulletSprite": "gamersmod-bulletbill-billred"
+    "bulletSprite": "gamersmod-bulletbill-billred",
+    "bulletShrink": 0,
     "speed": 1.0,
 			
     "damage": 1000.0,

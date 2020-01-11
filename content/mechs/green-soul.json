@@ -1,6 +1,6 @@
 {
 	"name": "Green Soul",
-	"description": "The soul that gives out modified friendliness pellets.",
+	"description": "The soul that heals blocks nearby, but has no attacking capabilities.",
 	"speed": 1.7,
 	"buildPower": 2.40,
 	"engineColor": "000000",
@@ -18,24 +18,27 @@
 		"length": 0,
 		"reload": 35,
 		"alternate": false,
+		"shootSound": "none",
 		"bullet": {
     			"type": "BasicBulletType",
     			"lifetime": 150,
-    			"speed": 1.4,
+    			"speed": 6,
     			"bulletSprite": "gamersmod-green-soul-pellet"
 			
-    			"damage": 65.0,
+    			"damage": 250.0,
 			"pierce": false,
-			"inaccuracy": 2.5,
-    			"bulletWidth": 3,
+			"inaccuracy": 0,
+    			"bulletWidth": 1,
+			"collidesTeam": true,
 
-    			"bulletHeight": 7,
+    			"bulletHeight": 1,
+			"bulletShrink": 0,
 
-   			"shootEffect": "heal",
-			"hitEffect": "healBlock",
+   			"shootEffect": "none",
+			"hitEffect": "heal",
 			"keepVelocity": true,
     			"smokeEffect": "none",
-    			"shootSound": "none",
+    			
 			"hitSound": "mech-greensoul"
 		}
 	}

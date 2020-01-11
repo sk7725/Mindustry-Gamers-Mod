@@ -4,7 +4,7 @@
 	"description": "A dispenser that shoots items in high velocity. Redstone clock included.",
 	"health": 8000,
 	"size": 1,
-	"reload": 11,
+	"reload": 12,
 	"range": 160,	"knockback": 1,
 	"ammoUseEffect": "smeltsmoke",
 	"inaccuracy": 2,
@@ -18,8 +18,9 @@
     "lifetime": 700,
     "speed": 10,
     "splashDamageRadius": 40,
-    "splashDamage": 95,
-    "bulletSprite": "gamersmod-dispenser-firecharge"
+    "splashDamage": 55,
+    "bulletSprite": "gamersmod-dispenser-firecharge",
+    "bulletShrink": 0,
 			
     "damage": 95.0,
 	

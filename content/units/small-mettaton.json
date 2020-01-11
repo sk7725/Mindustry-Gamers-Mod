@@ -21,7 +21,8 @@
     			"type": "BasicBulletType",
     			"lifetime": 300,
     			"speed": 0.7,
-    			"bulletSprite": "gamersmod-mettatron-mheart"
+    			"bulletSprite": "gamersmod-mettatron-mheart",
+			"bulletShrink": 0,
 			
     			"damage": 60.0,
 			"pierce": true,
