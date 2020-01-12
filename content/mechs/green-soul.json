@@ -1,6 +1,6 @@
 {
 	"name": "Green Soul",
-	"description": "The soul that heals blocks nearby, but has no attacking capabilities.",
+	"description": "The soul that heals blocks nearby, but the overwhelming Kindness also heals foes.",
 	"speed": 1.7,
 	"buildPower": 2.40,
 	"engineColor": "000000",
@@ -17,15 +17,16 @@
 		"name": "green-soul-arm",
 		"length": 0,
 		"reload": 35,
-		"alternate": false,
+		"alternate": true,
 		"shootSound": "none",
 		"bullet": {
-    			"type": "BasicBulletType",
+    			"type": "HealBulletType",
+			"healPercent": 25,
     			"lifetime": 150,
     			"speed": 6,
     			"bulletSprite": "gamersmod-green-soul-pellet"
 			
-    			"damage": -250.0,
+    			"damage": -150.0,
 			"pierce": false,
 			"inaccuracy": 0,
     			"bulletWidth": 1,

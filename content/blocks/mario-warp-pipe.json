@@ -1,0 +1,14 @@
+{
+	"type": "ArmoredConduit",
+	"name": "Warp Pipe",
+	"description": "Transfers liquids in warp pipes. The pipe is very armored and has high capacity, the only downside being the loss of visibility of the liquid inside. Does not accept fluids from the sides by anything other than conduits, and has the highest leak resistance.",
+	"health": 600,
+	"BlockGroup": "liquids",
+	"requirements": [
+		{"item": "pixellium-type-m", "amount": 2}
+	],
+	"category": "liquid",
+	"research": "pixellium-modder-m",
+	"liquidCapacity": 25,
+	"leakResistance": 20
+}
