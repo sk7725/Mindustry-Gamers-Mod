@@ -5,5 +5,15 @@
 	"idleSound": "bgm-undertale-gaster",
 	"idleSoundVolume": 200,
 	"category": "effect",
-	"buildVisibility": "sandboxOnly"
+	"buildVisibility": "sandboxOnly",
+	"flameColor": "#00000000",
+	"craftTime": 5500,
+	"craftEffect": "coreLand",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "silicon", "amount": 1 }
+			]
+		}
+	},
 }
