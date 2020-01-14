@@ -7,13 +7,5 @@
 	"category": "effect",
 	"buildVisibility": "sandboxOnly",
 	"flameColor": "#00000000",
-	"craftTime": 5500,
-	"craftEffect": "coreLand",
-	"consumes": {
-		"items": {
-			"items": [
-				{ "item": "silicon", "amount": 1 }
-			]
-		}
-	},
+	"craftTime": 5500
 }
