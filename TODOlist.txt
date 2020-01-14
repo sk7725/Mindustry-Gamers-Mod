@@ -1,0 +1,29 @@
+M
+BbBlaster● RbbBlaster● HBlock● GBlock● WarpPipe●
+[Castle○ BigCastle○]
+BaizaibBlaster□ ?Block□ BBlock□ Coin*□ Brick*□ PowBThrower□ PowBlock*□ Spike□ GoombaRP□ Goomba^□
+
+C
+Dispenser●□ MFarm● LBlock●○□ CTable● DpDrill● Exp*● FCharge*●
+[House○]
+Furnace□ Diamond*□ Iron*□ Wood*□ DOre"□ IOre"□ IpDrill□ IAxe□ DAxe□ ArrowCTable□ Arrow*□ Brewery□ PoInstDamage*□
+
+U
+GBlaster● CGenerator● MT● YSoul● GSoul● SMT^● GS^^● YS^^●
+[??○]
+
+T
+LBrick○ LFTrap○ ManaStatue○ MimicStatue○ PicksawDrill○ ManaStar*○ Mimic^○
+[House○]
+
+B
+CofNegativity○ CSpike○ EBox○ EArea○ DreamLiquid○
+[CampSite○]
+
+S
+Mech??○ Holo-??○ Holo-??○ Powerupper?○ Wifi-??○ ??^^○ HoverGun^○
+[Gems??○]
+
+I
+SDrill○ Sniper??○ Spin??○ Freeze??○ Eportal○ Scalar*○ Enemy??^○
+[Base○]
