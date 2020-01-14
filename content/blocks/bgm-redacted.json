@@ -1,0 +1,9 @@
+{
+	"name": "Music Block - REDACTED",
+	"description": "Iㅜ'ㄹ RUDㅌ ㅜㅇ TAㄴK ABㅇUㅜ ㄹOMEㅇNㅌ Wㅐㅇ'ㄹ ㄴㅣSTㅌNㅣNG",
+	"type": "GenericSmelter",
+	"idleSound": "bgm-undertale-gaster",
+	"idleSoundVolume": 200,
+	"category": "effect",
+	"buildVisibility": "sandboxOnly"
+}
