@@ -1,4 +1,4 @@
-//var region = Core.atlas.find("bgm-redacted");
+var region = Core.atlas.find("gamersmod-bgm-redacted");
 print('Loading Music Block...')
 
 const bgmblock = extendContent(genericSmelter, "bgm-redacted", {
@@ -11,9 +11,9 @@ const bgmblock = extendContent(genericSmelter, "bgm-redacted", {
 	configured(tile, player, value){
 	},
 
-	//draw(tile){
-	//	Draw.rect(region, tile.drawx(), tile.drawy(), Time.time() * this.itSpin)
-	//}
+	draw(tile){
+		Draw.rect(region, tile.drawx(), tile.drawy()
+	}
 });
 
 bgmblock.localizedName = "Music Block - REDACTED";
