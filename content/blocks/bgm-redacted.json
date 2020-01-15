@@ -1,10 +1,8 @@
 {
 	"name": "Music Block - REDACTED",
 	"description": "Iㅜ'ㄹ RUDㅌ ㅜㅇ TAㄴK ABㅇUㅜ ㄹOMEㅇNㅌ Wㅐㅇ'ㄹ ㄴㅣSTㅌNㅣNG",
-	"type": "GenericSmelter",
 	"category": "effect",
 	"buildVisibility": "sandboxOnly",
-	"flameColor": "#000000",
 	"update": true,
 	"configurable": true
 }
