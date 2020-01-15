@@ -3,7 +3,7 @@ print('Loading Music Block...');
 
 const bgmblock = extendContent(Block, "bgm-redacted", {
 	buildConfiguration(tile, table){
-		table.addImageButton(Icon.arrowUpSmall, Styles.clearTransi, run(() => {
+		table.addImageButton(Icon.arrowRightSmall, Styles.clearTransi, run(() => {
 			tile.configure(0);
 		})).size(50);
 	},
@@ -12,9 +12,9 @@ const bgmblock = extendContent(Block, "bgm-redacted", {
 		;
 	},
 
-	draw(tile){
-		Draw.rect(region, tile.drawx(), tile.drawy());
-	}
+	//draw(tile){
+	//	Draw.rect(region, tile.drawx(), tile.drawy());
+	//}
 });
 
 bgmblock.localizedName = "Music Block - REDACTED";
