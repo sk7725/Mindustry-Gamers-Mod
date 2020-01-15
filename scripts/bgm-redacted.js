@@ -1,7 +1,7 @@
 var region = Core.atlas.find("gamersmod-bgm-redacted");
 print('Loading Music Block...')
 
-const bgmblock = extendContent(genericSmelter, "bgm-redacted", {
+const bgmblock = extendContent(Block, "bgm-redacted", {
 	buildConfiguration(tile, table){
 		table.addImageButton(Icon.arrowUpSmall, Styles.clearTransi, run(() => {
 			tile.configure(0);
@@ -12,7 +12,7 @@ const bgmblock = extendContent(genericSmelter, "bgm-redacted", {
 	},
 
 	draw(tile){
-		Draw.rect(region, tile.drawx(), tile.drawy()
+		Draw.rect(region, tile.drawx(), tile.drawy();
 	}
 });
 
