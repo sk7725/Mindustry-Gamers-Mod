@@ -1,7 +1,7 @@
-//var region = Core.atlas.find("bgm-redacted");
+var region = Core.atlas.find("bgm-redacted");
 print('Loading Music Block...')
 
-const spinner = extendContent(Block, "bgm-redacted", {
+const bgmblock = extendContent(genericSmelter, "bgm-redacted", {
 	//init(){
 	//	this.itSpin = 2; // it spin
 	//},
