@@ -4,5 +4,7 @@
 	"type": "GenericSmelter",
 	"category": "effect",
 	"buildVisibility": "sandboxOnly",
-	"flameColor": "#000000"
+	"flameColor": "#000000",
+	"update": true,
+	"configurable": true
 }
