@@ -9,8 +9,8 @@ const bgmblock = extendContent(Block, "bgm-redacted", {
 	},
 
 	configured(tile, value){
-		var audio = new Audio('gamersmod-bgm-undertale-gaster.ogg');
-		audio.play();
+		Core.audio.src("gamersmod-bgm-undertale-gaster");
+		Core.audio.play();
 	},
 
 	//draw(tile){
