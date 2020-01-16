@@ -20,14 +20,21 @@ const bgmblock = extendContent(Turret, "bgm-redacted", {
 
 	configured(tile, value){
 		Effects.effect(siloLaunchEffect, tile);
+		const noteBullet = extend(BasicBulletType, {});
+		noteBullet.damage = 1;
+		noteBullet.bulletWidth = 1;
+		noteBullet.bulletHeight = 1;
+		noteBullet.lifetime = 1;
+		noteBullet.hitSound = "gamersmod-bgm-undertale-gaster";
                 Calls.createBullet(
-                    Bullets.flakExplosive,
-                    tile.getTeam(),
-                    tile.drawx(),
-                    tile.drawy(),
-                    Mathf.random(360),
-                    Mathf.random(0, 0),
-                    Mathf.random(0, 0)
+			
+			Bullets.noteBullet,
+			tile.getTeam(),
+			tile.drawx(),
+			tile.drawy(),
+			0,
+			Mathf.random(0, 0),
+			Mathf.random(0, 0)
                 );
 	},
 
@@ -39,6 +46,6 @@ const bgmblock = extendContent(Turret, "bgm-redacted", {
 bgmblock.localizedName = "Music Block - REDACTED";
 bgmblock.description = "Iㅜ'ㄹ RUDㅌ ㅜㅇ TAㄴK ABㅇUㅜ ㄹOMEㅇNㅌ Wㅐㅇ'ㄹ ㄴㅣSTㅌNㅣNG";
 bgmblock.configurable = true;
-bgmblock.shootSound = "gamersmod-bgm-undertale-gaster";
+//bgmblock.shootSound = "gamersmod-bgm-undertale-gaster";
 
 print("Created Music Block")
