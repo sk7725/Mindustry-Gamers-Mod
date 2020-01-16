@@ -39,6 +39,5 @@ const bgmblock = extendContent(Turret, "bgm-redacted", {
 bgmblock.localizedName = "Music Block - REDACTED";
 bgmblock.description = "Iㅜ'ㄹ RUDㅌ ㅜㅇ TAㄴK ABㅇUㅜ ㄹOMEㅇNㅌ Wㅐㅇ'ㄹ ㄴㅣSTㅌNㅣNG";
 bgmblock.configurable = true;
-bgmblock.shootSound = "gamersmod-bgm-undertale-gaster";
 
 print("Created Music Block")
