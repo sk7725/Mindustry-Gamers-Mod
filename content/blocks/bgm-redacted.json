@@ -5,5 +5,5 @@
 	"buildVisibility": "sandboxOnly",
 	"update": true,
 	"configurable": true,
-	"shootSound": "bgm-undertale-gaster"
+	"shootSound": "gamersmod-bgm-undertale-gaster"
 }
