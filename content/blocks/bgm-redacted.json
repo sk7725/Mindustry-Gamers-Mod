@@ -4,6 +4,5 @@
 	"category": "effect",
 	"buildVisibility": "sandboxOnly",
 	"update": true,
-	"configurable": true,
-	"shootSound": "gamersmod-bgm-undertale-gaster"
+	"configurable": true
 }
