@@ -11,7 +11,7 @@ const siloLaunchEffect = newEffect(20, e => {
 var region = Core.atlas.find("gamersmod-bgm-redacted");
 print('Loading Music Block...');
 
-const bgmblock = extendContent(Block, "bgm-redacted", {
+const bgmblock = extendContent(Turret, "bgm-redacted", {
 	buildConfiguration(tile, table){
 		table.addImageButton(Icon.arrowRightSmall, Styles.clearTransi, run(() => {
 			tile.configure(0);
