@@ -4,7 +4,7 @@ noteBullet.damage = 0;
 noteBullet.bulletWidth = 12;
 noteBullet.bulletHeight = 12;
 //friedEgg.shootEffect = Fx.shootSmall;
-noteBullet.hitSound = Sounds.flame;
+//noteBullet.hitSound = Sounds.flame;
 noteBullet.ammoMultiplier = 1;
 noteBullet.homingPower = 0;
 noteBullet.homingRange = 0;
@@ -61,7 +61,7 @@ const bgmblock = extendContent(Turret, "bgm-redacted", {
 });
 
 bgmblock.localizedName = "Music Block - REDACTED";
-bgmblock.description = "Iㅜ'ㄹ RUDㅌ ㅜㅇ TAㄴK ABㅇUㅜ ㄹOMEㅇNㅌ Wㅐㅇ'ㄹ ㄴㅣSTㅌNㅣNG";
+bgmblock.description = "Iㅜ'ㄹ RUDㅌ ㅜㅇ TAㄴK ABㅇUㅜ ㄹOMEㅇNㅌ Wㅐㅇ'ㄹ ㄴㅣSTㅌNㅣNG.";
 bgmblock.configurable = true;
 //bgmblock.shootSound = "gamersmod-bgm-undertale-gaster";
 
