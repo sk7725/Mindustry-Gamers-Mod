@@ -1,3 +1,5 @@
+
+
 // create a simple shockwave effect
 const siloLaunchEffect = newEffect(20, e => {
 
@@ -28,7 +30,7 @@ const bgmblock = extendContent(Turret, "bgm-redacted", {
 		noteBullet.hitSound = "gamersmod-bgm-undertale-gaster";
                 Calls.createBullet(
 			
-			Bullets.noteBullet,
+			noteBullet,
 			tile.getTeam(),
 			tile.drawx(),
 			tile.drawy(),
