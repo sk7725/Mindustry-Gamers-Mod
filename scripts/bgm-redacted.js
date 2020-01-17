@@ -1,4 +1,18 @@
-
+const noteBullet = extend(BasicBulletType, {});
+noteBullet.speed = 1;
+noteBullet.damage = 0;
+noteBullet.bulletWidth = 12;
+noteBullet.bulletHeight = 12;
+//friedEgg.shootEffect = Fx.shootSmall;
+//friedEgg.hitSound = Sounds.flame;
+noteBullet.ammoMultiplier = 1;
+noteBullet.homingPower = 0;
+noteBullet.homingRange = 0;
+noteBullet.knockback = 0;
+noteBullet.hitShake = 0;
+noteBullet.incendAmount = 20;
+noteBullet.bulletSprite = "bgm-note";
+noteBullet.frontColor = Color.valueOf("#ffffff");
 
 // create a simple shockwave effect
 const siloLaunchEffect = newEffect(20, e => {
@@ -22,12 +36,12 @@ const bgmblock = extendContent(Turret, "bgm-redacted", {
 
 	configured(tile, value){
 		Effects.effect(siloLaunchEffect, tile);
-		const noteBullet = extend(BasicBulletType, {});
+		/*const noteBullet = extend(BasicBulletType, {});
 		noteBullet.damage = 1;
 		noteBullet.bulletWidth = 1;
 		noteBullet.bulletHeight = 1;
 		noteBullet.lifetime = 1;
-		noteBullet.hitSound = "gamersmod-bgm-undertale-gaster";
+		noteBullet.hitSound = "gamersmod-bgm-undertale-gaster";*/
                 Calls.createBullet(
 			
 			noteBullet,
