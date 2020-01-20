@@ -15,6 +15,29 @@ noteBullet.bulletSprite = "bgm-note";
 noteBullet.lifetime = 1;
 noteBullet.frontColor = Color.valueOf("#ffffff");
 
+bgmblock.shootSound = "gamersmod-bgm-undertale-gaster";
+
+/*
+update: function(shooter, pX, pY){
+		var left = false;
+		do{
+			var pos = Vec2(pX, pY);
+			pos.sub(shooter.getX(), shooter.getY());
+			if(pos.len() < this.minPlayerDist){
+				pos.setLength(this.minPlayerDist);
+			}
+			var cx = pos.x + shooter.getX(), cy = pos.y + shooter.getY();
+
+			var ang = pos.angle();
+			pos.setAngle(ang);
+			pos.trns(ang - 90, this.width * Mathf.sign(left), this.length + Mathf.range(this.lengthRand));
+
+			// "realUpdate" to avoid bs infinite recursion
+			this.realUpdate(shooter, pos.x, pos.y, Angles.angle(shooter.getX() + pos.x, shooter.getY() + pos.y, cx, cy), left);
+			left = !left;
+		}while(left);
+	},
+*/
 // create a simple shockwave effect
 const siloLaunchEffect = newEffect(20, e => {
 
@@ -43,7 +66,7 @@ const bgmblock = extendContent(Turret, "bgm-redacted", {
 		noteBullet.bulletHeight = 1;
 		noteBullet.lifetime = 1;
 		noteBullet.hitSound = "gamersmod-bgm-undertale-gaster";*/
-                Calls.createBullet(
+                /*Calls.createBullet(
 			
 			noteBullet,
 			tile.getTeam(),
@@ -52,7 +75,8 @@ const bgmblock = extendContent(Turret, "bgm-redacted", {
 			0,
 			Mathf.random(0, 0),
 			Mathf.random(0, 0)
-                );
+                );*/
+		this.shoot(shooter,0,0,true);
 	},
 
 	//draw(tile){
@@ -63,6 +87,6 @@ const bgmblock = extendContent(Turret, "bgm-redacted", {
 bgmblock.localizedName = "Music Block - REDACTED";
 bgmblock.description = "Iㅜ'ㄹ RUDㅌ ㅜㅇ TAㄴK ABㅇUㅜ ㄹOMEㅇNㅌ Wㅐㅇ'ㄹ ㄴㅣSTㅌNㅣNG.";
 bgmblock.configurable = true;
-//bgmblock.shootSound = "gamersmod-bgm-undertale-gaster";
+
 
 print("Created Music Block")
