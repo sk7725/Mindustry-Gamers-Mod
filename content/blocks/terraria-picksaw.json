@@ -1,3 +1,15 @@
 {
-"type": "Drill"
+"type": "Drill", 
+"name": "Picksaw Drill", 
+"description": "A drill that uses the Picksaw to mine every ore possible.", 
+"size": 3,
+"tier": 32767,
+"consumes": {
+  "power": 3.5
+}
+"requirements": [
+  {"item": "pixellium-type-t", "amount": 60}
+  ], 
+"category": "production", 
+"research": "pixellium-modder-t"
 } 
