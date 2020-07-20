@@ -4,6 +4,7 @@
 "description": "A drill that uses the Picksaw to mine every ore possible.", 
 "size": 3,
 "tier": 32767,
+"drillTime": 90.0, 
 "consumes": {
   "power": 3.5
 }
