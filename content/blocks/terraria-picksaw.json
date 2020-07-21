@@ -1,7 +1,7 @@
 {
 "type": "Drill", 
 "name": "Picksaw Drill", 
-"description": "A drill that uses the Picksaw to mine every ore possible.", 
+"description": "A drill that uses the Picksaw to mine every possible ore.", 
 "size": 3,
 "tier": 32767,
 "drillTime": 180, 
